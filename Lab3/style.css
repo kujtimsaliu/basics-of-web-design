@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height:600px;
+    margin:40px 0 0 0;
+    padding: 0;
+    width: 800px;
+}
+ul {
+    align-items: center;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 120px;
+    display: flex;
+}
+.header {
+    align-items: center;
+    background: rgb(137,193,11);
+    background: linear-gradient(180deg, rgba(137,193,11,1) 35%, rgba(108,155,47,1) 100%);
+    display: flex;
+    height: 30px;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.leaf {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    font-size: 18px;
+    height: 120px;
+}
+ul li{
+    /* display: inline; */
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    text-align: center;
+}
+ ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+/* -----menu------ */
+
+.content{
+    height: 420px;
+    display: flex;
+    
+}
+
+.item{
+    width: 400px;
+
+}
+.home_img{
+    height: 300px;
+}
+.kontakt_p{
+    height: 200px;
+}
+.zanas_p{
+    margin-top: 40px;
+    height: 260px;
+}
+.text{
+    font-weight:700;
+    
+}
+.text h1{
+    text-align: center;
+    font-size: 25px;
+    color: #92CD00;
+    padding: 10px;
+}
+.text .home_p{
+    text-align: justify;
+    color: #192402;
+    text-overflow: ellipsis;
+    line-height:20px;
+    padding: 5px;
+}
+P{
+    padding:0px;
+    margin: 0px;
+}
+
+.tab{
+    margin-left: 50px; 
+    text-align: justify;
+    margin-right: 10px;
+}
+
+.kontakt_p{
+    text-decoration: underline;
+    background-color: #FFFF00
+}
+
+.najava_c{
+    margin-top: 40px;
+}
+#servisi_h{
+    font-size: 24px;
+}
+/* -----footer------- */
+footer{
+    height: 30px;
+    color: #fff;
+    background-color: #81b518;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

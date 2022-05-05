@@ -1,0 +1,214 @@
+body
+{
+    width: 100%;
+    background-color: #F5F5F5;
+    color: #4f8295;
+    font-family: "Times New Roman";
+    font-size: 18px;
+}
+
+.content
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 80rem;
+    background: #fff;
+    padding: 15px;
+}
+.firstpart{
+    background-color: darkblue;
+    height: 500px;
+    display: flex;
+    color: white;
+    font-family: "Times New Roman";
+    font-size: medium;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.secondpart{
+    background-color: rgb(80, 200, 140);
+    height: 270px;
+    color: black;
+    font-family:"Times New Roman";
+    font-size: x-small;
+}
+.menu
+{
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+    width: 50%;
+    text-align: right;
+    margin-right: 10px;
+}
+.logo
+{
+    display: inline-block;
+    width: 45%;
+    padding-left: 40px;
+
+}
+
+#link
+{
+    text-decoration: none;
+    font-size: x-small;
+    font-family: "Times New Roman";
+    color: gray;
+    padding-right: 40px;
+}
+#link1 {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top:35px;
+}
+
+hr
+{
+    border: solid;
+    border-width: 2px 0 0;
+    clear: both;
+    color: gray;
+}
+.line{
+    color:darkgray;
+    box-shadow: 1px 1px white;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#firstimage {
+    padding-right: 20px;
+    width: 520px;
+    height: 400px;
+}
+#secondimage{
+    margin-left: 65px;
+    width: 180px;
+    height: 115px;
+    padding-top: 10px;
+    border-radius: 20px;
+    float: left;
+}
+#thirdimage{
+    margin-right: 65px;
+    width: 180px;
+    height: 115px;
+    padding-bottom: 10px;
+    border-radius: 20px 20px;
+    float: right;
+}
+.p1{
+    padding: 20px 50px 10px 265px;
+}
+.p2{
+    padding: 0px 265px 45px 65px;
+}
+.text2
+{
+    display: inline-block;
+    width: 30%;
+    padding-left: 20px;
+}
+
+
+.contact
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: lightgreen;
+    width: 100%;
+}
+.contact1{
+    display: inline-block;
+    background-color: lightgray;
+    color: white;
+    width: 100%;
+    height: 300px;
+}
+.p3{
+    font-size: small;
+    color: black;
+    padding-left: 70px;
+    padding-right:350px;
+}
+
+.map
+{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    color:black;
+    font-size: small;
+    float: right;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+.p4{
+    font-size: small;
+    color: black;
+    padding-left: 820px;
+}
+
+.foot
+{
+    display: inline-block;
+    width: 50%;
+    font-size: x-small;
+    padding-left: 40px;
+    font-weight: bold;
+
+}
+
+.footlink
+{
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+    font-weight: bold;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.profiles{
+    width:100%;
+    display: flex;
+   /* justify-content: ;*/
+    align-content: center;
+    margin-left:85px;
+}
+.teams{
+    height: 150px;
+    width: 90%;
+    margin:15px 0px 0px 12px
+}
+.contact2{
+    display: inline-block;
+    background-color: lightgray;
+    color: white;
+    width: 100%;
+    height: 425px;
+}
+.profile{
+    width: 270px;
+    margin-right: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+.profile h1{
+    font-size: 28px;
+    text-align: center;
+}
+.profile p{
+    font-size: 15px;
+    margin:0 15px 10px 15px;
+    font-weight: bold;
+    text-align: justify;
+}
